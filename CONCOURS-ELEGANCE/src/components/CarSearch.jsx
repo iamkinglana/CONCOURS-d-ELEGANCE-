@@ -28,6 +28,7 @@ function CarSearch() {
 
   return (
     <div className="car-search-container">
+      <h1 className="headeer">Vintages</h1>
       <input type="text" onChange={handleInputChange} />
       <button onClick={handleSearch}>Search</button>
       {searchResults.length > 0 && (
@@ -35,10 +36,18 @@ function CarSearch() {
           {searchResults.map((car) => (
             <li key={car.id}>
               {car.make} {car.model} ({car.year})
-              <p>Name: {car.name}</p>
+              
               <p>Make: {car.make}</p>
+              <p>Model: {car.model}</p>
               <p>Year: {car.year}</p>
               <p>Fuel Type: {car.fuel_type}</p>
+              <p>Transmission: {car.transmission}</p>
+              <p>Class: {car.class}</p>
+              <p>Cylinders: {car.cylinders}</p>
+              <p>City mpg: {car.city_mpg}</p>
+              <p>Combination mpg: {car.combination_mpg}</p>
+              <p>Highway mpg: {car.highway_mpg}</p>
+              
             </li>
           ))}
         </ul>

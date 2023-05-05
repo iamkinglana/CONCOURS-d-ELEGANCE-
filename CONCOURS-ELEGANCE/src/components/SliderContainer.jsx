@@ -18,7 +18,11 @@ function ImageSlider() {
     "https://i.ytimg.com/vi/dip_8dmrcaU/maxresdefault.jpg",
     "https://i.pinimg.com/originals/4e/37/38/4e37389f082195b15b129c43113e34b0.jpg",
     "https://wallup.net/wp-content/uploads/2018/03/19/587030-Toyota_FT-1_Concept-car-vehicle-silver_cars.jpg",
-    "https://w0.peakpx.com/wallpaper/736/285/HD-wallpaper-toyota-ft-1-concept-toyota-car-vehicle-concept-black-cars.jpg"
+    "https://w0.peakpx.com/wallpaper/736/285/HD-wallpaper-toyota-ft-1-concept-toyota-car-vehicle-concept-black-cars.jpg",
+    "https://images.pexels.com/photos/712618/pexels-photo-712618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/528426/pexels-photo-528426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://media.ed.edmunds-media.com/dodge/challenger/2021/oem/2021_dodge_challenger_coupe_srt-hellcat-redeye-widebody_fq_oem_1_815.jpg"
+    
 
   ];
 

@@ -5,7 +5,7 @@ function CarList() {
   const [filteredCars, setFilteredCars] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3006/cars")
+    fetch("https://carsapi-0jiv.onrender.com/cars")
       .then((response) => response.json())
       .then((data) => {
         setCars(data);
@@ -22,7 +22,7 @@ function CarList() {
   };
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:3006/cars/${id}`, {
+    fetch(`https://carsapi-0jiv.onrender.com/cars${id}`, {
       method: "DELETE",
       headers: { "Content-Type": "application/json" }
     });

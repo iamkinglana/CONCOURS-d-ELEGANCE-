@@ -12,7 +12,7 @@ function AddCarsForm({ handleAddCars }) {
     e.preventDefault();
     console.log(formData);
     try {
-      const res = await fetch("http://localhost:3006/cars", {
+      const res = await fetch("https://carsapi-0jiv.onrender.com/cars", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -48,97 +48,97 @@ function AddCarsForm({ handleAddCars }) {
             value={formData.amount}
             name="Id"
             placeholder="Id"
-            step="0.01"
+            step="1"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={formData.description}
+            value={formData.make}
             name="Make"
             placeholder="Make"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={formData.category}
+            value={formData.model}
             name="Model"
             placeholder="Model"
             onChange={handleChange}
           />
           <input
             type="number"
-            value={formData.amount}
+            value={formData.debuted}
             name="Debuted"
             placeholder="Debuted"
-            step="0.01"
+            step="1"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={formData.category}
+            value={formData.engine}
             name="Engine"
             placeholder="Engine"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={formData.category}
+            value={formData.acceleration}
             name="Acceleration"
             placeholder="Acceleration"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={formData.category}
+            value={formData.topspeed}
             name="Top Speed"
             placeholder="Top Speed"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={formData.category}
+            value={formData.horsepower}
             name="Horse Power"
             placeholder="Horse Power"
             onChange={handleChange}
           />
            <input
             type="text"
-            value={formData.category}
+            value={formData.fueltype}
             name="Fuel Type"
             placeholder="Fuel Type"
             onChange={handleChange}
           />
            <input
             type="text"
-            value={formData.category}
+            value={formData.price}
             name="Price"
             placeholder="Price"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={formData.category}
+            value={formData.origin}
             name="Origin"
             placeholder="Origin"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={formData.category}
+            value={formData.unitproduced}
             name="Units Produced"
             placeholder="Units Produced"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={formData.category}
+            value={formData.image_1}
             name="Image_1"
             placeholder="Image_1"
             onChange={handleChange}
           />
           <input
             type="text"
-            value={formData.category}
+            value={formData.image_2}
             name="Image_2"
             placeholder="Image_2"
             onChange={handleChange}
@@ -150,6 +150,9 @@ function AddCarsForm({ handleAddCars }) {
         </button>
       </form>
     </div>
+
+
+
   );
 }
 export default AddCarsForm;

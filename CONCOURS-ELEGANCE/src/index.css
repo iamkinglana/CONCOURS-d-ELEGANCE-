@@ -129,8 +129,8 @@ nav button:hover {
   z-index: 1;
 }
 .slider-container {
-  width: 24rem;
-  height: 36rem;
+  width: 38rem;
+  height: 26rem;
   border-radius: 10px;
   overflow:hidden;
   cursor: pointer;
@@ -176,12 +176,12 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* .header {
-  background-color: violet;
-  color: white;
+.headeer {
+  background-color: rgb(14, 13, 14);
+  color: rgb(213, 204, 32);
   padding: 20px;
   text-align: center;
-} */
+}
 
 .navbar {
   display: flex;
@@ -414,10 +414,12 @@ button:hover {
   max-width: 300px;
   flex-basis: 300px;
   text-align: center;
+  background-color: black;
+  
 }
 
 .car-search-results li p {
   margin: 0;
-  font-size: 17px;
-  color: #c0392b;
+  font-size: 23px;
+  color: #dea625;
 }

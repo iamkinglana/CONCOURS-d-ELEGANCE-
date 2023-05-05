@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
+      <h1 className="headeer">CONCOURS d'ELEGANCE 2023</h1>
       
       <ul>
         <li>
