@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="header">
-        <h1> CONCOURS D'ELEGANCE 2023 </h1>
+        {/* <h1> CONCOURS D'ELEGANCE 2023 </h1> */}
       </div>
       <Router>
         <Navbar />
