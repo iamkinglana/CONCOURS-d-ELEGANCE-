@@ -66,7 +66,7 @@ function CarList() {
               <h3>
                 {car.Make} {car.Model}
               </h3>
-              <p id="catchphrase">{car.Engine}</p>
+              <p>{car.Engine}</p>
               <p>
                 {car.Origin} {car.top} {car.price}
               </p>

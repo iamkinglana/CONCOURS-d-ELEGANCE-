@@ -2,6 +2,7 @@ import React from "react";
 import CarList from "./CarList";
 import Search from "./SearchCars";
 import AddCarsForm from "./AddCarsForm";
+import Slider from "react-slick";
 function CarsContainer({
 	  
     cars,
@@ -11,7 +12,8 @@ function CarsContainer({
 }) {
 	return (
 		<div>
-			<Search handleSearch={handleSearch} />
+			{/* <Search handleSearch={handleSearch} /> */}
+			<Slider/>
 			<AddCarsForm
 				handleAddCars={handleAddCars}
 				cars={cars}
